@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 import express from "express";
 const config = require('../config/global');
-const helper = require('../helper/index');
+
 import { get } from "lodash";
 export const verifyJwtToken = (
   req: express.Request,
