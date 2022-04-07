@@ -1,1 +1,1 @@
-# Nodejs, PostgreSQL & Typescript REST API
+# Nodejs, Mysql(PHPmyadmin) & Typescript REST API
