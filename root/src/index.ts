@@ -1,11 +1,10 @@
-import {Router} from 'express';
+import { Router } from "express";
 let router = Router();
 
-let Auth = require("./router/AuthRouter")
-let Home = require("./router/Home");
+let Auth = require("./router/AuthRouter");
+let Home = require("./router/HistoryRouter");
 
-
-router.use("/home", Home);
+router.use("/history", Home);
 router.use("/auth", Auth);
 
 module.exports = router;
